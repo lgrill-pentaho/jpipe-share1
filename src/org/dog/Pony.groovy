@@ -2,7 +2,7 @@ package org.dog
 
 public class Pony {
 
-  public def showPonies() {
+  public def getPonyText() {
     return 'I love pink ponies!!!'
   }
 }
