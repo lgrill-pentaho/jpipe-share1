@@ -1,5 +1,5 @@
 #!/usr/bin/env groovy
-import org.dog.pony
+import org.dog
 
 def call(String name = 'shittyzu') {
   echo "Hello dog, ${name}."
