@@ -1,4 +1,4 @@
-package org.dog.pony
+package org.dog
 
 void Pony() {
   println 'I love pink ponies!!!'
