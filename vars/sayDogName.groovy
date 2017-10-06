@@ -4,5 +4,5 @@ import org.dog.*
 def call(String name = 'shittyzu') {
   echo "Hello dog, ${name}."
   Pony p = new Pony()
-  p.showPonies()
+  println p.showPonies()
 }
