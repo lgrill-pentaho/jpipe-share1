@@ -1,5 +1,8 @@
 package org.dog
 
-void Pony() {
-  println 'I love pink ponies!!!'
+public class Pony {
+
+  public Pony() {
+    println 'I love pink ponies!!!'
+  }
 }
