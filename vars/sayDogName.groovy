@@ -1,8 +1,8 @@
 #!/usr/bin/env groovy
 import org.dog.*
 
-def call(String name = 'shittyzu') {
+def call(String name = 'Bernie') {
   echo "Hello dog, ${name}."
-  Pony p = new Pony()
-  println "And...${p.getPonyText()}"
+  def b = new Breed()
+  println "And...${b.getBreed(name)}"
 }
